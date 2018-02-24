@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration:none; 
+}
+.box{
+	width: 7.5rem;
+	height: 12.9rem;
+	/* overflow: hidden; */
+	background: #f9f9f9;
+	position: relative;
+}
+/* 选择页面中的input的placeholder属性 */
+/* ::-webkit-input-placeholder{
+	color : red;
+} */
+.box .toptab{
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left);
+	/* 固定定位，相对于窗口定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+.box .toptab img{
+	width: 0.88rem;
+	height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	left: 0;
+}
+.box .toptab .zhuce{
+	width: 7.5rem;
+	font-size: 0.36rem;
+	line-height: 0.88rem;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 0.03rem;
+	margin-bottom: 0.1rem;
+	position: absolute;
+	top: 0rem;
+	font-family: 苹方;
+	font-weight: bold;
+}
+.box .toptab .denglu{
+	width: 7.5rem;
+	font-size: 0.24rem;
+	line-height: 0.88rem;
+	text-align: right;
+	color: #fff;
+	letter-spacing: 0.03rem;
+	margin-bottom: 0.1rem;
+	position: absolute;
+	top: 0rem;
+	right: 0.24rem;
+	font-family: 苹方;
+	font-weight: bold;
+}
+.box .ditu{
+	width: 100%;
+	height: 13.34rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.box .biaozhi{
+	width: 1.7rem;
+	height: 1.7rem;
+	position: absolute;
+	top: 1.7rem;
+	right: 2.9rem;
+	z-index: 1;
+
+	/* margin-right: 0; */
+}
+.box .mingcheng{
+	width: 7.5rem;
+	font-size: 0.48rem;
+	line-height: 0.88rem;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 0.03rem;
+	/* margin-bottom: 0.1rem; */
+	position: absolute;
+	top: 3.5rem;
+	font-family: 时尚中黑简体;
+	font-weight: bold;
+	z-index: 2;
+}
+.box .zhanghao .zhanghaokuang{
+	width: 4.94rem;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	background: white;
+	padding-left: 0.3rem;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 5.45rem;
+	left: 1.14rem;
+	z-index: 2;
+	border: none;
+}
+.box .mima1 .mimakuang{
+	width: 4.94rem;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	background: white;
+	padding-left: 0.3rem;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 6.6rem;
+	left: 1.14rem;
+	z-index: 2;
+	border: none;
+}
+.box .mima1 .yanzhengma{
+	width: 1.4rem;
+	height: 0.24rem;
+	line-height: 0.9rem;
+	font-size: 0.24rem;
+	position: absolute;
+	top: 6.6rem;
+	right: 1.14rem;
+	z-index: 2;
+	border: none;
+}
+.box .wangji{
+	/* width: 7.5rem; */
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	text-align: right;
+	color: #fff;
+	letter-spacing: 0.03rem;
+	margin-bottom: 0.1rem;
+	position: absolute;
+	top: 7.7rem;
+	right: 1.14rem;
+	z-index: 3;
+	font-family: 苹方;
+	font-weight: bold;
+}
+.box .liji{
+	width: 5.24rem;
+	height: 0.7rem;
+	position: absolute;
+	top: 8.5rem;
+	right: 1.14rem;
+	z-index: 3;
+}
+.box .disanfang{
+	width: 5.24rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 11rem;
+	right: 1.14rem;
+	z-index: 3;
+}
+.box .qq{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 11.63rem;
+	left: 1.14rem;
+	z-index: 4;
+}
+.box .wei{
+	width: 0.62rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 11.63rem;
+	left: 3.45rem;
+	z-index: 4;
+}
+.box .bo{
+	width: 0.62rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 11.63rem;
+	right: 1.14rem;
+	z-index: 4;
+}

@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration:none; 
+}
+.box{
+	width: 7.5rem;
+	height: 12.9rem;
+	/* overflow: hidden; */
+	background: #f9f9f9;
+	position: relative;
+}
+/* 选择页面中的input的placeholder属性 */
+/* ::-webkit-input-placeholder{
+	color : red;
+} */
+.box .toptab{
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left);
+	/* 固定定位，相对于窗口定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+.box .toptab img{
+	width: 0.88rem;
+	height: 0.88rem;
+	position: absolute;
+	top: 0rem;
+	left: 0;
+}
+.box .toptab .denglu{
+	width: 7.5rem;
+	font-size: 0.36rem;
+	line-height: 0.88rem;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 0.03rem;
+	margin-bottom: 0.1rem;
+	position: absolute;
+	top: 0rem;
+	font-family: 苹方;
+	font-weight: bold;
+}
+.box .ditu{
+	width: 7.5rem;
+	height: 12.9rem;
+}
+.box .touxiang{
+	width: 1.85rem;
+	height: 1.85rem;
+	position: absolute;
+	top: 1.42rem;
+	left: 2.84rem;
+}
+.box .ming{
+	width: 7.5rem;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 0.03rem;
+	position: absolute;
+	top: 3.5rem;
+	font-family: 苹方;
+	font-weight: bold;
+}
+.box .kuai{
+	width: 7.02rem;
+	height: 7.3rem;
+	position: absolute;
+	top: 4.25rem;
+	left: 0.24rem;
+}
+.box .kuai img{
+	width: 3.35rem;
+	height: 3.49rem;
+	margin-bottom: 0.3rem;
+	margin-right: 0.32rem;
+	float: left;
+}
+.box .kuai .jifen2{
+	margin-right: 0;
+}
+.box .kuai .jifen4{
+	margin-right: 0;
+}
+.box .tab{
+	width: 100%;
+	height: 0.98rem;
+	background: #9feaff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 4;
+}
+.box .tab .di{
+	width: 2.5rem;
+	height: 0.98rem;
+	/* margin-left: 0.24rem; */
+	/* background: blue; */
+	float: left;
+}
+.box .tab img{
+	width: 0.88rem;
+	height: 0.88rem;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	margin-left: 0.81rem;
+	margin-right: 0.81rem;
+}
+.box .tab .di .text1{
+	width: 2.5rem;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+	color: #292929;
+	font-family:苹方;
+	position: absolute;
+	top: 0.66rem;
+	left: 0rem;
+	float: left;
+}
+.box .tab .di .text2{
+	width: 2.5rem;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+	color: #292929;
+	font-family:苹方;
+	position: absolute;
+	top: 0.66rem;
+	left: 2.5rem;
+	float: left;
+}
+.box .tab .di .text3{
+	width: 2.5rem;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+	color: #0e9dff;
+	font-family:苹方;
+	position: absolute;
+	top: 0.66rem;
+	left: 5rem;
+	float: left;
+}
